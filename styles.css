@@ -1,0 +1,190 @@
+.sprites {
+  overflow: auto;
+}
+
+html {
+  font-size: 18px;
+  line-height: 29px;
+}
+
+h1, .h1 {
+  font-size: 86px;
+  line-height: 1.01163;
+}
+
+h2, .h2 {
+  font-size: 64px;
+  line-height: 1.35938;
+}
+
+h3, .h3 {
+  font-size: 44px;
+  line-height: 1.31818;
+}
+
+h4, .h4 {
+  font-size: 33px;
+  line-height: 1.75758;
+}
+
+h5, .h5 {
+  font-size: 29px;
+  line-height: 1;
+}
+
+h6, .h6 {
+  font-size: 26px;
+  line-height: 1.11538;
+}
+
+.sprites {
+  padding: 0;
+}
+.sprites li {
+  background: url(images/dev-sprites.svg) no-repeat;
+  background-size: 400%;
+  display: block;
+  float: left;
+  height: 6.5em;
+  width: 6.5em;
+  text-indent: -9999px;
+}
+.sprites .css3 {
+  background-position: 105% 68%;
+}
+.sprites .javascript {
+  background-position: 0 105%;
+}
+.sprites .php {
+  background-position: 34% 0;
+}
+.sprites .jquery {
+  background-position: 69% 0;
+}
+.sprites .grunt {
+  background-position: 70% 68%;
+}
+.sprites .sass {
+  background-position: 0 34%;
+}
+.sprites .bootstrap {
+  background-position: 103% 34%;
+}
+.sprites .nodejs {
+  background-position: 34% 68%;
+}
+.sprites .git {
+  background-position: 35% 34%;
+}
+.sprites .mysql {
+  background-position: 68% 34%;
+}
+.sprites .angularjs {
+  background-position: 0 68%;
+}
+.sprites .bower {
+  background-position: 104% 0;
+}
+
+html {
+  background-color: #eee;
+  color: #483B2E;
+  box-model: border-box;
+}
+
+* {
+  box-model: inherit;
+}
+
+body {
+  font-family: Vollkorn, Georgia, serif;
+  margin: 0;
+}
+
+main {
+  margin: 0 auto;
+  padding: 8px;
+  max-width: 26em;
+}
+main h1 {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 50%;
+  max-width: 100%;
+  z-index: -1;
+}
+
+h1,
+h2 {
+  color: #C8711E;
+}
+
+h3 small {
+  display: inline-block;
+  color: #483B2E;
+}
+
+b {
+  font-size: larger;
+  text-align: justify;
+}
+
+article {
+  border-bottom: 1px solid #C8711E;
+  padding-bottom: 29px;
+  margin-bottom: 58px;
+  position: relative;
+}
+article:last-of-type {
+  border-bottom: none;
+}
+article h3 {
+  margin-bottom: 0;
+  color: #333;
+}
+
+button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media screen and (min-width: 66em) {
+  img {
+    border-radius: 50%;
+    max-width: 12em;
+    margin-left: -16em;
+    margin-top: 1em;
+    z-index: -1;
+    float: left;
+  }
+
+  main > header {
+    margin-top: 10em;
+  }
+  main > header h1 {
+    visibility: hidden;
+  }
+
+  address {
+    float: left;
+    margin-left: -16em;
+    width: 12em;
+    text-align: right;
+  }
+
+  article .date {
+    position: absolute;
+    top: 0;
+    left: -12em;
+    width: 8em;
+    text-align: right;
+  }
+  article time {
+    display: inline-block;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
