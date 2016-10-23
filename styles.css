@@ -102,6 +102,7 @@ body {
 }
 
 main {
+  display: none;
   margin: 0 auto;
   padding: 8px;
   max-width: 26em;
