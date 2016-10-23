@@ -1,9 +1,8 @@
-// $(document).ready(function () {
+$(document).ready(function () {
   var item = $('header h1').first(),
       title = item.text(),
       newTitle = '',
       i = 0;
-
 
   function addToString(ind, newTitle) {
     scramble(title[ind], newTitle);
@@ -81,4 +80,4 @@
   }).one('click', function (e) {
     addToString(0, newTitle);
   });
-// });
+});
